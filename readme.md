@@ -1,11 +1,11 @@
-# combination
+# combine
 
 Combinatoric algorithms.
 
 ## abacus
 
-A recursive algorithm to enumerate combinations, i.e.
+A recursive algorithm to enumerate combinations using an "abacus." The underlying data structure is an abacus of length `n` with `k` beads. The abacus is recursively truncated while beads are moved sequentially to the right.
 
-> Enumerate all possible combinations of k integers between 1 and n.
+# dfs
 
-The underlying data structure is an abacus of length `n` with `k` beads. The abacus is recursively truncated while beads are moved sequentially to the right.
+A recursive k-combination algorithm using DFS.
